@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EKot</string>
+    <string name="titre_RendezVous">Prendre Rendez vous</string>
+    <string name="action_settings">Options</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_section1">Accueil</string>
+    <string name="title_section2">FAQ</string>
+    <string name="title_section3">Permanence</string>
+    <string name="title_section4">Contact</string>
+    <string name="textAccueil">Bienvenue sur notre application!</string>
+    <string name="textPermanence">Notre équipe est disponible chaque semaine afin de résoudre vos problèmes
+                            de matériels et de logiciels.</string>
+    <string name="buttonRendezVous">Prendre rendez-vous!</string>
+    <string name="textHeurePerma">La permanence aura lieue cette semaine le MERCREDI de 18 à 20h</string>
+    <string name="textTitreContact">Où nous trouver et comment nous contacter?</string>
+    <string name="titreKot">Directement à notre bâtiment:</string>
+    <string name="adresseKot">1, Quai Ferdinand Courtois - 5000 Namur</string>
+    <string name="titreCercle">Au cercle info:</string>
+    <string name="adresseCercle">22, rue Grandgagnage - 5000 Namur</string>
+    <string name="contactEmailTel">Par téléphone ou par e-mail:</string>
+    <string name="titreFAQ">Questions les plus fréquemment posées:</string>
+    <string name="titreAccueil">Un probleme avec votre ordinateur ou votre connexion?</string>
+    <string name="descriptionAccueilFAQ">- Consultez ,en premier lieu, la FAQ. Vous trouverez une solution aux problèmes basiques.</string>
+    <string name="descriptionAccueilPerma">- Vous ne trouvez pas de réponses à votre problème? \n Pas de panique! :) \n Consultez l\'horaire de nos permanences ou prenez directement rendez-vous pour plus de facilité!</string>
+    <string name="nomRendezVous">Entrez votre nom</string>
+    <string name="prenomRendezVous">Entrez votre prenom</string>
+    <string name="numTel">Entrez votre GSM</string>
+    <string name="adresseMail">Entrez votre adresse mail</string>
+    <string name="buttonRdv">Inscription</string>
+    <string name="textRdv">Inscription à une permanence</string>
+</resources>

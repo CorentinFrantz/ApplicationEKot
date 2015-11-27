@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.henallux.applicationekot" >
 
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/launcher"
@@ -29,9 +32,6 @@
             android:name=".RendezVous"
             android:label="@string/titre_RendezVous">
         </activity>
-
-        <uses-permission android:name="android.permission.CALL_PHONE"/>
-
     </application>
 
 </manifest>
