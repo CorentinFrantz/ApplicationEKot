@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ApplicationEKot</string>
+    <string name="titre_RendezVous">Prendre Rendez vous</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_section1">Accueil</string>
+    <string name="title_section2">FAQ</string>
+    <string name="title_section3">Permanence</string>
+    <string name="title_section4">Contact</string>
+    <string name="textAccueil">Bienvenue sur lapplication EKot!</string>
+    <string name="textPermanence">Notre équipe est disponible de manière hebdomadaire afin de résoudre vos problèmes
+                            matériels et logiciels.</string>
+    <string name="buttonRendezVous">Prendre rendez-vous!</string>
+    <string name="textHeurePerma">La permanence aura lieue cette semaine le MERCREDI de 18 à 20h</string>
+    <string name="textTitreContact">Où nous trouver et comment nous contacter?</string>
+    <string name="titreKot">Directement à lE-Kot:</string>
+    <string name="adresseKot">1, Quai Ferdinand Courtois - 5000 Namur</string>
+    <string name="titreCercle">Au cercle info:</string>
+    <string name="adresseCercle">22, rue Grandgagnage - 5000 Namur</string>
+    <string name="contactEmailTel">Par téléphone ou par e-mail:</string>
+    <string name="titreFAQ">Questions les plus fréquemment posées:</string>
+    <string name="titreAccueil">Un problème avec votre ordinateur ou votre connexion?</string>
+    <string name="descriptionAccueilFAQ">- Consulter tout dabord la FAQ, vous trouverez une solution aux problemes basiques.</string>
+    <string name="descriptionAccueilPerma">- Vous navez pas trouve reponse a votre probleme? \n Pas de panique! :) \n Consultez  nos horaires de permanence via longlet "Permanence" ou prenez directement rendez-vous pour plus de facilité!</string>
+</resources>
