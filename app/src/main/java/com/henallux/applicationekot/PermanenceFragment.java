@@ -22,7 +22,7 @@ public class PermanenceFragment extends Fragment {
     private TextView textHeurePerma;
     private TextView adresseKot;
     private Button goToRendezVous;
-    private View ImageClick;
+    private View goToAdmin;
 
 
     public static PermanenceFragment newInstance()
@@ -39,8 +39,8 @@ public class PermanenceFragment extends Fragment {
     {
         View rootView = inflater.inflate(R.layout.permanence_fragment, container, false);
 
-        ImageClick = rootView.findViewById((R.id.imagePerma));
-        ImageClick.setOnLongClickListener(new View.OnLongClickListener() {
+        goToAdmin = rootView.findViewById((R.id.imagePerma));
+        goToAdmin.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
                 Intent intent = new Intent(getActivity(), RendezVous.class);
