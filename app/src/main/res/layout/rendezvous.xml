@@ -7,8 +7,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
+        android:text="@string/adresseMail"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/adresseMail"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="138dp" />
@@ -17,8 +18,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="phone"
+        android:text="@string/numTel"
         android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_above="@+id/editText"
-        android:layout_alignStart="@+id/editText" />
+        android:id="@+id/numTel"
+        android:layout_above="@+id/adresseMail"
+        android:layout_alignStart="@+id/adresseMail" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/prenomRendezVous"
+        android:ems="10"
+        android:id="@+id/prenomRendezVous"
+        android:layout_above="@+id/nomRendezVous"
+        android:layout_alignStart="@+id/nomRendezVous" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="@string/nomRendezVous"
+        android:ems="10"
+        android:id="@+id/nomRendezVous"
+        android:layout_above="@+id/numTel"
+        android:layout_alignStart="@+id/numTel" />
+
 </RelativeLayout>
