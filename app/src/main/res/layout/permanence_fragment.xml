@@ -30,9 +30,9 @@
         android:layout_height="150dp"
         android:id="@+id/imagePerma"
         android:src="@drawable/imageperma"
+        android:layout_marginTop="48dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
