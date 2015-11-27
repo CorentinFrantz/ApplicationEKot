@@ -30,6 +30,8 @@
             android:label="@string/titre_RendezVous">
         </activity>
 
+        <uses-permission android:name="android.permission.CALL_PHONE"/>
+
     </application>
 
 </manifest>
