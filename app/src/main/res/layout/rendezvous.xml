@@ -9,9 +9,9 @@
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/adresseMail"
+        android:hint="@string/adresseMail"
         android:layout_below="@+id/prenomRendezVous"
-        android:layout_alignStart="@+id/prenomRendezVous"
-        android:hint="@string/adresseMail" />
+        android:layout_alignStart="@+id/prenomRendezVous" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -39,20 +39,21 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/nomRendezVous"
+        android:hint="@string/nomRendezVous"
         android:layout_above="@+id/prenomRendezVous"
-        android:layout_alignStart="@+id/numTel"
-        android:hint="@string/nomRendezVous" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:text="@string/buttonRdv"
         android:id="@+id/buttonRdv"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="46dp"
-        android:layout_marginBottom="39dp"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:textColor="#0066CC"
+        android:textSize="20dp"
+        android:layout_below="@+id/numTel"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -65,15 +66,6 @@
         android:textSize="25dp"
         android:layout_above="@+id/nomRendezVous"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="72dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/textView"
-        android:layout_above="@+id/buttonRdv"
-        android:layout_alignParentStart="true" />
+        android:layout_marginBottom="73dp" />
 
 </RelativeLayout>

@@ -29,4 +29,8 @@
     <string name="adresseMail">Enter your e-mail</string>
     <string name="buttonRdv">Subscribe</string>
     <string name="textRdv">Subscribe to permanence</string>
+    <string name="textLoginAdmin">This part is reserved for the administration!</string>
+    <string name="usernameAdmin">Username</string>
+    <string name="passwordAdmin">Password</string>
+    <string name="buttonLogAdmin">Log in</string>
 </resources>

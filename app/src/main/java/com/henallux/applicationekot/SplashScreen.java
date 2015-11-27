@@ -43,7 +43,7 @@ public class SplashScreen extends Activity {
         }
         else
         {
-            Toast.makeText(getApplicationContext(), "Vous n\'avez pas acces à internet!", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "ERREUR! Vous devez posséder une connection internet pour pouvoir utiliser cette application! Veuillez activer votre WIFI ou votre 3G/4G!", Toast.LENGTH_LONG).show();
         }
     }
 

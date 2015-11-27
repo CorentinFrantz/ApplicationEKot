@@ -14,7 +14,7 @@
         <!-- Splash screen -->
         <activity
             android:name="com.henallux.applicationekot.SplashScreen"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,9 +29,14 @@
         </activity>
 
         <activity
-            android:name=".RendezVous"
+            android:name="com.henallux.applicationekot.RendezVous"
             android:label="@string/titre_RendezVous">
         </activity>
+
+        <activity
+            android:name="com.henallux.applicationekot.LoginAdmin">
+        </activity>
+
     </application>
 
 </manifest>

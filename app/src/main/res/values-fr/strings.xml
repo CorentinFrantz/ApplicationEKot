@@ -29,4 +29,8 @@
     <string name="adresseMail">Entrez votre adresse mail</string>
     <string name="buttonRdv">Inscription</string>
     <string name="textRdv">Inscription à une permanence</string>
+    <string name="textLoginAdmin">Cette partie est réservée à l\'administration! </string>
+    <string name="usernameAdmin">Nom d\'utilisateur</string>
+    <string name="passwordAdmin">Mot de passe</string>
+    <string name="buttonLogAdmin">Se connecter</string>
 </resources>

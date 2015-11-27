@@ -43,7 +43,7 @@ public class PermanenceFragment extends Fragment {
         goToAdmin.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-                Intent intent = new Intent(getActivity(), RendezVous.class);
+                Intent intent = new Intent(getActivity(), LoginAdmin.class);
                 startActivity(intent);
                 return true;
             }
