@@ -22,4 +22,10 @@
     <string name="titreAccueil">Un problème avec votre ordinateur ou votre connexion?</string>
     <string name="descriptionAccueilFAQ">- Consulter tout dabord la FAQ, vous trouverez une solution aux problemes basiques.</string>
     <string name="descriptionAccueilPerma">- Vous navez pas trouve reponse a votre probleme? \n Pas de panique! :) \n Consultez  nos horaires de permanence via longlet "Permanence" ou prenez directement rendez-vous pour plus de facilité!</string>
+    <string name="nomRendezVous">Entrez votre nom</string>
+    <string name="prenomRendezVous">Entrez votre prenom</string>
+    <string name="numTel">Entrez votre GSM</string>
+    <string name="adresseMail">Entrez votre adresse mail</string>
+    <string name="buttonRdv">Inscription</string>
+    <string name="textRdv">Inscription à une permanence</string>
 </resources>
