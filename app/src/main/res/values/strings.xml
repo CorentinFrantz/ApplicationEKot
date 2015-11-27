@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ApplicationEKot</string>
+    <string name="app_name">EKot</string>
     <string name="titre_RendezVous">Prendre Rendez vous</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
