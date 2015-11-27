@@ -1,13 +1,18 @@
 package com.henallux.applicationekot;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.ImageView;
 
 
 /**
  * Created by etu22360 on 20/11/2015.
  */
 public class RendezVous extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

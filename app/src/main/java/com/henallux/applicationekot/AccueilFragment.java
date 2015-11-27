@@ -13,6 +13,10 @@ import android.support.v4.app.Fragment;
  */
 public class AccueilFragment extends Fragment {
 
+    private TextView titreAccueil;
+    private TextView descriptionAccueilFAQ;
+    private TextView descriptionAccueilPerma;
+
     public static AccueilFragment newInstance()
     {
         AccueilFragment fragment = new AccueilFragment();
@@ -23,10 +27,6 @@ public class AccueilFragment extends Fragment {
     public AccueilFragment() {
     }
 
-
-TextView titreAccueil;
-TextView descriptionAccueilFAQ;
-TextView descriptionAccueilPerma;
 
 
     @Override
