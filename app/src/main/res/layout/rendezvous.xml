@@ -4,44 +4,54 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:ems="10"
         android:id="@+id/adresseMail"
         android:hint="@string/adresseMail"
         android:layout_below="@+id/prenomRendezVous"
-        android:layout_alignStart="@+id/prenomRendezVous" />
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:ems="10"
         android:id="@+id/numTel"
         android:layout_below="@+id/adresseMail"
         android:layout_centerHorizontal="true"
-        android:hint="@string/numTel" />
+        android:hint="@string/numTel"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/prenomRendezVous"
         android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/nomRendezVous"
-        android:hint="@string/prenomRendezVous" />
+        android:hint="@string/prenomRendezVous"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/nomRendezVous"
         android:hint="@string/nomRendezVous"
         android:layout_above="@+id/prenomRendezVous"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
