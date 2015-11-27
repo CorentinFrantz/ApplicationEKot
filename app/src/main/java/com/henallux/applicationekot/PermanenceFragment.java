@@ -18,7 +18,7 @@ import android.widget.TextView;
 
 public class PermanenceFragment extends Fragment {
 
-
+    private boolean test;
     private TextView textPerma;
     private TextView textHeurePerma;
     private TextView adresseKot;
