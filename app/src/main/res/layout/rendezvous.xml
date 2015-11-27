@@ -10,9 +10,8 @@
         android:text="@string/adresseMail"
         android:ems="10"
         android:id="@+id/adresseMail"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="138dp" />
+        android:layout_below="@+id/prenomRendezVous"
+        android:layout_alignStart="@+id/prenomRendezVous" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -21,8 +20,8 @@
         android:text="@string/numTel"
         android:ems="10"
         android:id="@+id/numTel"
-        android:layout_above="@+id/adresseMail"
-        android:layout_alignStart="@+id/adresseMail" />
+        android:layout_below="@+id/adresseMail"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -31,7 +30,7 @@
         android:text="@string/prenomRendezVous"
         android:ems="10"
         android:id="@+id/prenomRendezVous"
-        android:layout_above="@+id/nomRendezVous"
+        android:layout_centerVertical="true"
         android:layout_alignStart="@+id/nomRendezVous" />
 
     <EditText
@@ -41,7 +40,31 @@
         android:text="@string/nomRendezVous"
         android:ems="10"
         android:id="@+id/nomRendezVous"
-        android:layout_above="@+id/numTel"
+        android:layout_above="@+id/prenomRendezVous"
         android:layout_alignStart="@+id/numTel" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonRdv"
+        android:id="@+id/buttonRdv"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="39dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/textRdv"
+        android:id="@+id/textRdv"
+        android:textColor="#0066CC"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_above="@+id/nomRendezVous"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp" />
 
 </RelativeLayout>

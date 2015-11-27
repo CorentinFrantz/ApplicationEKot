@@ -26,4 +26,6 @@
     <string name="prenomRendezVous">Entrez votre prenom</string>
     <string name="numTel">Entrez votre GSM</string>
     <string name="adresseMail">Entrez votre adresse mail</string>
+    <string name="buttonRdv">Inscription</string>
+    <string name="textRdv">Inscription à une permanence</string>
 </resources>
