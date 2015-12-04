@@ -21,7 +21,7 @@ public class SplashScreen extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        if(isConnectingToInternet(getApplicationContext())) {
+       // if(isConnectingToInternet(getApplicationContext())) {
             new Handler().postDelayed(new Runnable() {
 
             /*
@@ -40,11 +40,11 @@ public class SplashScreen extends Activity {
                     finish();
                 }
             }, SPLASH_TIME_OUT);
-        }
-        else
-        {
-            Toast.makeText(getApplicationContext(), "ERREUR! Vous devez posséder une connection internet pour pouvoir utiliser cette application! Veuillez activer votre WIFI ou votre 3G/4G!", Toast.LENGTH_LONG).show();
-        }
+       // }
+       // else
+       // {
+       //     Toast.makeText(getApplicationContext(), "ERREUR! Vous devez posséder une connection internet pour pouvoir utiliser cette application! Veuillez activer votre WIFI ou votre 3G/4G!", Toast.LENGTH_LONG).show();
+       // }
     }
 
     private boolean isConnectingToInternet(Context applicationContext){

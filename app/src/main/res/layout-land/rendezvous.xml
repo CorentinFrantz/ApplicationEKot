@@ -10,8 +10,8 @@
         android:ems="10"
         android:id="@+id/adresseMail"
         android:hint="@string/adresseMail"
-        android:layout_below="@+id/prenomRendezVous"
-        android:layout_alignStart="@+id/prenomRendezVous" />
+        android:layout_below="@+id/numTel"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -19,9 +19,9 @@
         android:inputType="phone"
         android:ems="10"
         android:id="@+id/numTel"
-        android:layout_below="@+id/adresseMail"
-        android:layout_centerHorizontal="true"
-        android:hint="@string/numTel" />
+        android:hint="@string/numTel"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/adresseMail" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -29,9 +29,9 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/prenomRendezVous"
-        android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/nomRendezVous"
-        android:hint="@string/prenomRendezVous" />
+        android:hint="@string/prenomRendezVous"
+        android:layout_below="@+id/textRdv"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
         android:ems="10"
         android:id="@+id/nomRendezVous"
         android:hint="@string/nomRendezVous"
-        android:layout_above="@+id/prenomRendezVous"
+        android:layout_above="@+id/numTel"
         android:layout_centerHorizontal="true" />
 
     <Button
@@ -50,10 +50,10 @@
         android:id="@+id/buttonRdv"
         android:layout_height="wrap_content"
         android:textColor="#0066CC"
-        android:textSize="20dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/problem"
-        android:layout_marginBottom="41dp" />
+        android:textSize="16dp"
+        android:layout_below="@+id/adresseMail"
+        android:layout_toEndOf="@+id/textRdv"
+        android:layout_marginTop="22dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,9 +64,9 @@
         android:textColor="#0066CC"
         android:textStyle="bold"
         android:textSize="25dp"
-        android:layout_above="@+id/nomRendezVous"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="73dp" />
+        android:layout_marginTop="27dp" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -74,7 +74,7 @@
         android:ems="10"
         android:id="@+id/problem"
         android:hint="@string/problem"
-        android:layout_below="@+id/numTel"
+        android:layout_below="@+id/adresseMail"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
