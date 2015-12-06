@@ -1,0 +1,60 @@
+Create table FAQ
+(
+	idQuestion INT PRIMARY KEY NOT NULL,
+	libQuestion varchar(100) not null,
+	lienExterne varchar(100) not null
+);
+
+Create table Permanence
+(	
+	idPerma INT PRIMARY KEY NOT NULL,
+	heureDebutPerma TIME,
+	heureFinPerma TIME,
+	datePerma DATE
+);
+
+Create table RendezVous
+(	
+	idRendezVous INT PRIMARY KEY NOT NULL,
+	nomEtudiant varchar(50) not null,
+	prenomEtudiant varchar (50) not null,
+	telephoneEtudiant varchar (10) not null,
+	mailEtudiant varchar (50) not null,
+	probleme varchar (150) not null
+);
+
+Create table Admin
+(
+	idAdmin INT PRIMARY KEY NOT NULL,
+	nomAdmin varchar (50) not null,
+	prenomAdmin varchar (50) not null,
+	password varchar(20) not null
+);
+	
+
+insert into FAQ (idQuestion, libQuestion, lienExterne) 
+values 
+(01, 'Comment ajouter une machine sur le réseau', 'http://google.com');
+
+insert into FAQ (idQuestion, libQuestion, lienExterne) 
+values 
+(02, 'Comment retirer une machine sur le réseau', 'http://google.com');
+
+insert into FAQ (idQuestion, libQuestion, lienExterne) 
+values 
+(03, 'Comment vérifier mon quota, 'http://google.com');
+
+
+insert into Permanence (idPerma, heureDebutPerma, heureFinPerma, datePerma)
+values
+(01);
+
+insert into RendezVous (idRendezVous, nomEtudiant, prenomEtudiant, telephoneEtudiant, mailEtudiant, probleme)
+values
+(01, 'Frantz', 'Corentin', '0495768304', 'frantzc01@gmail.com', 'Bug sur mon PC');
+
+insert into Admin (idAdmin, nomAdmin, prenomAdmin, password)
+values
+(01, 'Dupont', 'Alexis', 'dupontalexis');
+
+

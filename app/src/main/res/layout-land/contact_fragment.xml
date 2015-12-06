@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/textTitreContact"
+        android:id="@+id/textTitreContact"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="29dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#0066CC"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/titreKot"
+        android:id="@+id/titreKot"
+        android:layout_below="@+id/textTitreContact"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#0066CC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/adresseKot"
+        android:id="@+id/adresseKot"
+        android:textAlignment="center"
+        android:layout_below="@+id/titreKot"
+        android:layout_alignStart="@+id/titreKot"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/titreCercle"
+        android:id="@+id/titreCercle"
+        android:layout_below="@+id/adresseKot"
+        android:layout_alignStart="@+id/adresseKot"
+        android:layout_marginTop="32dp"
+        android:textColor="#0066CC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/adresseCercle"
+        android:id="@+id/adresseCercle"
+        android:layout_below="@+id/titreCercle"
+        android:layout_alignStart="@+id/titreCercle"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/contactEmailTel"
+        android:id="@+id/contactEmailTel"
+        android:textStyle="bold"
+        android:textColor="#0066CC"
+        android:layout_above="@+id/adresseKot"
+        android:layout_alignEnd="@+id/textTitreContact" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButtonMail"
+        android:src="@drawable/androidmail"
+        android:layout_alignTop="@+id/androidCall"
+        android:layout_toEndOf="@+id/androidCall"
+        android:layout_marginStart="25dp" />" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/androidCall"
+        android:src="@drawable/androidcall"
+        android:layout_alignBottom="@+id/adresseCercle"
+        android:layout_alignStart="@+id/contactEmailTel" />
+
+
+</RelativeLayout>
