@@ -4,12 +4,15 @@ package com.henallux.applicationekot;
  * Created by Corentin on 02/11/2015.
  */
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.Settings;
 import android.widget.Toast;
 
 public class SplashScreen extends Activity {
@@ -43,7 +46,26 @@ public class SplashScreen extends Activity {
         }
         else
         {
-            Toast.makeText(getApplicationContext(), "ERREUR! Vous devez posséder une connection internet pour pouvoir utiliser cette application! Veuillez activer votre WIFI ou votre 3G/4G!", Toast.LENGTH_LONG).show();
+            AlertDialog.Builder builder1 = new AlertDialog.Builder(this);
+            builder1.setMessage("Impossible de mettre à jour les informations. Veuillez disposer d'une connexion internet!");
+            builder1.setCancelable(true);
+            builder1.setPositiveButton("Paramètres",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            Intent intent = new Intent(Settings.ACTION_WIFI_SETTINGS);
+                            startActivityForResult(intent, 0);
+                            dialog.cancel();
+                        }
+                    });
+            builder1.setNegativeButton("OK",
+                    new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.cancel();
+                        }
+                    });
+
+            AlertDialog alert11 = builder1.create();
+            alert11.show();
         }
     }
 

@@ -1,5 +1,8 @@
 package com.henallux.applicationekot;
 
+import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -43,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-      //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-       // setSupportActionBar(toolbar);
+        //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        // setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
@@ -95,13 +98,17 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-            switch(position)
-            {
-                case 0 : return AccueilFragment.newInstance();
-                case 1 : return FAQFragment.newInstance();
-                case 2 : return PermanenceFragment.newInstance();
-                case 3 : return ContactFragment.newInstance();
-                default : return AccueilFragment.newInstance();
+            switch (position) {
+                case 0:
+                    return AccueilFragment.newInstance();
+                case 1:
+                    return FAQFragment.newInstance();
+                case 2:
+                    return PermanenceFragment.newInstance();
+                case 3:
+                    return ContactFragment.newInstance();
+                default:
+                    return AccueilFragment.newInstance();
             }
         }
 
@@ -161,4 +168,5 @@ public class MainActivity extends AppCompatActivity {
             return rootView;
         }
     }
+
 }
