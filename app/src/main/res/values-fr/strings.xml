@@ -21,8 +21,8 @@
     <string name="contactEmailTel">Par téléphone ou par e-mail:</string>
     <string name="titreFAQ">Questions les plus fréquemment posées:</string>
     <string name="titreAccueil">Un probleme avec votre ordinateur ou votre connexion?</string>
-    <string name="descriptionAccueilFAQ">- Consultez ,en premier lieu, la FAQ. Vous trouverez une solution aux problèmes basiques.</string>
-    <string name="descriptionAccueilPerma">- Vous ne trouvez pas de réponses à votre problème? \n Pas de panique! :) \n Consultez l\'horaire de nos permanences ou prenez directement rendez-vous pour plus de facilité!</string>
+    <string name="descriptionAccueilFAQ"> Consultez en premier lieu, la FAQ!</string>
+    <string name="descriptionAccueilPerma">Vous ne trouvez pas de réponses à votre problème? Prenez rendez-vous à une permanence!</string>
     <string name="nomRendezVous">Entrez votre nom</string>
     <string name="prenomRendezVous">Entrez votre prenom</string>
     <string name="numTel">Entrez votre GSM</string>
@@ -34,4 +34,5 @@
     <string name="passwordAdmin">Mot de passe</string>
     <string name="buttonLogAdmin">Se connecter</string>
     <string name="problem">Votre problème</string>
+    <string name="titrePageAdmin">Liste des problèmes pour la prochaine permanence</string>
 </resources>

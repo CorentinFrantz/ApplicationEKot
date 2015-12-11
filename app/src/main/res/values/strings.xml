@@ -21,8 +21,8 @@
     <string name="contactEmailTel">By phone or email:</string>
     <string name="titreFAQ">Frequently Asked Questions:</string>
     <string name="titreAccueil">A problem with your computer or your connection?</string>
-    <string name="descriptionAccueilFAQ">- See , first, the FAQ . You will find a solution to the basic problems.</string>
-    <string name="descriptionAccueilPerma">- Can not find answers to your problem ? \ n Do not panic! :) \ n Check the schedule of our permanences or take appointments directly for convenience!</string>
+    <string name="descriptionAccueilFAQ">First, check the FAQ!</string>
+    <string name="descriptionAccueilPerma">Can not find answers to your problem ? Make an appointment at a time!</string>
     <string name="nomRendezVous">Enter your name</string>
     <string name="prenomRendezVous">Enter your first name</string>
     <string name="numTel">Enter your mobile phone</string>
@@ -34,4 +34,5 @@
     <string name="passwordAdmin">Password</string>
     <string name="buttonLogAdmin">Log in</string>
     <string name="problem">Your problem</string>
+    <string name="titrePageAdmin">Problem list for the next permanence</string>
 </resources>
